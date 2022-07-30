@@ -9,6 +9,25 @@
         .mobile-display{display:block}
         .desktop-display{display:none}
 
+        .float{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:40px;
+            right:40px;
+            background-color:#25d366;
+            color:#FFF;
+            border-radius:50px;
+            text-align:center;
+          font-size:30px;
+            box-shadow: 2px 2px 3px #999;
+          z-index:100;
+        }
+
+        .my-float{
+            margin-top:16px;
+        }
+
 <!--        /* Media Query for Mobile Devices */-->
 <!--        @media (max-width: 480px) {-->
 <!--            . desktop-display {display:none}-->
@@ -21,57 +40,63 @@
 <!--            . mobile-display {display:none}-->
 <!--        }-->
 
+
     </style>
 </head>
 <body>
-<div class="mobile-display">
-    <img src="./pages/mobile/1.png">
-    <img src="./pages/mobile/2.png">
-    <img src="./pages/mobile/3.png">
-    <img src="./pages/mobile/4.png">
-    <img src="./pages/mobile/5.png">
-    <img src="./pages/mobile/6.png">
-    <img src="./pages/mobile/7.png">
-    <img src="./pages/mobile/8.png">
-    <img src="./pages/mobile/9.png">
-    <img src="./pages/mobile/10.png">
-    <img src="./pages/mobile/11.png">
-    <img src="./pages/mobile/12.png">
-    <img src="./pages/mobile/13.png">
-    <img src="./pages/mobile/14.png">
-    <img src="./pages/mobile/15.png">
-    <img src="./pages/mobile/16.png">
-    <img src="./pages/mobile/17.png">
-    <img src="./pages/mobile/18.png">
-    <img src="./pages/mobile/19.png">
-    <img src="./pages/mobile/20.png">
-    <img src="./pages/mobile/21.png">
-</div>
+    <div class="mobile-display">
+        <img src="./pages/mobile/1.png">
+        <img src="./pages/mobile/2.png">
+        <img src="./pages/mobile/3.png">
+        <img src="./pages/mobile/4.png">
+        <img src="./pages/mobile/5.png">
+        <img src="./pages/mobile/6.png">
+        <img src="./pages/mobile/7.png">
+        <img src="./pages/mobile/8.png">
+        <img src="./pages/mobile/9.png">
+        <img src="./pages/mobile/10.png">
+        <img src="./pages/mobile/11.png">
+        <img src="./pages/mobile/12.png">
+        <img src="./pages/mobile/13.png">
+        <img src="./pages/mobile/14.png">
+        <img src="./pages/mobile/15.png">
+        <img src="./pages/mobile/16.png">
+        <img src="./pages/mobile/17.png">
+        <img src="./pages/mobile/18.png">
+        <img src="./pages/mobile/19.png">
+        <img src="./pages/mobile/20.png">
+        <img src="./pages/mobile/21.png">
+    </div>
 
-<div class="desktop-display">
-    <img src="./pages/desktop/Slide1.jpg">
-    <img src="./pages/desktop/Slide2.jpg">
-    <img src="./pages/desktop/Slide3.jpg">
-    <img src="./pages/desktop/Slide4.jpg">
-    <img src="./pages/desktop/Slide5.jpg">
-    <img src="./pages/desktop/Slide6.jpg">
-    <img src="./pages/desktop/Slide7.jpg">
-    <img src="./pages/desktop/Slide8.jpg">
-    <img src="./pages/desktop/Slide9.jpg">
-    <img src="./pages/desktop/Slide10.jpg">
-    <img src="./pages/desktop/Slide11.jpg">
-    <img src="./pages/desktop/Slide12.jpg">
-    <img src="./pages/desktop/Slide13.jpg">
-    <img src="./pages/desktop/Slide14.jpg">
-    <img src="./pages/desktop/Slide15.jpg">
-    <img src="./pages/desktop/Slide16.jpg">
-    <img src="./pages/desktop/Slide17.jpg">
-    <img src="./pages/desktop/Slide18.jpg">
-    <img src="./pages/desktop/Slide19.jpg">
-    <img src="./pages/desktop/Slide20.jpg">
-    <img src="./pages/desktop/Slide21.jpg">
-    <img src="./pages/desktop/Slide22.jpg">
-    <img src="./pages/desktop/Slide23.jpg">
-</div>
+    <div class="desktop-display">
+        <img src="./pages/desktop/Slide1.jpg">
+        <img src="./pages/desktop/Slide2.jpg">
+        <img src="./pages/desktop/Slide3.jpg">
+        <img src="./pages/desktop/Slide4.jpg">
+        <img src="./pages/desktop/Slide5.jpg">
+        <img src="./pages/desktop/Slide6.jpg">
+        <img src="./pages/desktop/Slide7.jpg">
+        <img src="./pages/desktop/Slide8.jpg">
+        <img src="./pages/desktop/Slide9.jpg">
+        <img src="./pages/desktop/Slide10.jpg">
+        <img src="./pages/desktop/Slide11.jpg">
+        <img src="./pages/desktop/Slide12.jpg">
+        <img src="./pages/desktop/Slide13.jpg">
+        <img src="./pages/desktop/Slide14.jpg">
+        <img src="./pages/desktop/Slide15.jpg">
+        <img src="./pages/desktop/Slide16.jpg">
+        <img src="./pages/desktop/Slide17.jpg">
+        <img src="./pages/desktop/Slide18.jpg">
+        <img src="./pages/desktop/Slide19.jpg">
+        <img src="./pages/desktop/Slide20.jpg">
+        <img src="./pages/desktop/Slide21.jpg">
+        <img src="./pages/desktop/Slide22.jpg">
+        <img src="./pages/desktop/Slide23.jpg">
+    </div>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=9987458173&text=Hello%2C%20I%20want%20to%20know%20more%20about%20veg%20investments.&type=phone_number&app_absent=1"
+       class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float mobile-display"></i>
+    </a>
 </body>
 </html>
