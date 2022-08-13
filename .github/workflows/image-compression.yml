@@ -1,10 +1,9 @@
   name: Compress Images
   uses: calibreapp/image-actions@1.1.0
   on:
-  pull_request:
+    pull_request:
     # Run Image Actions when JPG, JPEG, PNG or WebP files are added or changed.
-    paths:
-      - '**.jpg'
-      - '**.jpeg'
-      - '**.png'
-      - '**.webp'
+      paths:
+        - '**.jpg'
+        - '**.jpeg'
+        - '**.png'
